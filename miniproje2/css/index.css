@@ -1,0 +1,38 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+ul{
+    background-color: orange;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+li{
+    display: inline-block;
+}
+li a{
+    
+    display: inline-block;
+    padding:15px 10px;
+    text-decoration: none;
+    color: black;
+}
+li a:hover {
+    background-color: black;
+    color: orange;
+}
+.section{
+    background-color: lightblue;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.section h2{
+    background-color: blueviolet;
+    padding: 5px;
+    border-radius: 10px;
+}
